@@ -1,0 +1,8 @@
+<h1>Innove.me</h1>
+<h3>Os melhores Posts de transformação digital</h3>
+
+
+<% @posts.each do |post| %>
+  <%= link_to post.name, post %>
+    <%=  post.content %>
+<% end %>
